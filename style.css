@@ -1,0 +1,264 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100px;
+  justify-content: space-between;
+  position: fixed;
+  position: sticky;
+  width: 100%;
+  background-color: transparent;
+}
+
+.navbar img {
+  height: 50px;
+  margin-left: 125px;
+}
+
+.container1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(img/net-bg.jpg);
+
+  height: 700px;
+  background-size: cover;
+  background-blend-mode: darken;
+  justify-content: center;
+  margin-top: -100px;
+  display: flex;
+}
+
+.navbar li {
+  color: bisque;
+  text-decoration: none;
+  font-size: 14px;
+  list-style: none;
+  padding: 8px 23px;
+  margin-right: 110px;
+}
+
+select {
+  padding: 5px 21px;
+  font-size: 16px;
+  background-color: black;
+  color: #fff;
+  cursor: pointer;
+  margin-left: 650px;
+}
+
+.button1 {
+  background-color: red;
+  margin-right: 20px;
+  border-radius: 8px;
+}
+
+.sec1 {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  background-position: center;
+  text-align: center;
+  align-items: center;
+  min-height: 840px;
+  flex-direction: column;
+}
+
+.sec1 h1 {
+  font-size: 45px;
+  font-weight: 900;
+}
+.sec1 h2 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.search {
+  width: 100%;
+  padding: 30px;
+}
+
+.search input {
+  height: 60px;
+  width: 35%;
+  font-size: 25px;
+  background-color: transparent;
+  border: 4px solid gray;
+  color: #fff;
+}
+
+.try {
+  font-size: 23px;
+  cursor: pointer;
+  background-color: red;
+  border-radius: 4px;
+  min-height: 70px;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 700;
+}
+
+.container2 {
+  height: 550px;
+  margin-top: 10px;
+  background-color: black;
+  color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 30px;
+}
+
+.container2 img {
+  height: 380px;
+}
+.first-sec h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.first-sec h3 {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.question {
+  width: 100%;
+  min-height: 950px;
+  background-color: #000;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.question h1 {
+  text-align: center;
+  color: white;
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.quest {
+  width: 51%;
+  min-height: 75px;
+  background-color: #303030;
+  color: white;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  text-align: left;
+  flex-direction: row;
+  margin: 5px 0;
+}
+
+.quest .textbox {
+  display: flex;
+  text-align: left;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-self: center;
+  font-size: 25px;
+  margin: 0 30px;
+  word-spacing: 5px;
+  text-align: left;
+}
+
+.quest i {
+  margin: 0 30px;
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+}
+
+.quest:focus {
+  background-color: red;
+}
+.search1 {
+  width: 50%;
+  background-color: none;
+  min-height: 80px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  margin-top: 10px;
+}
+
+.box1 {
+  width: 100%;
+  min-height: 65px;
+  cursor: pointer;
+}
+
+.try1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #e50914;
+  min-height: 70px;
+  width: 70%;
+  color: white;
+  font-size: 25px;
+  margin: 50px 0;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.question h4 {
+  color: white;
+  margin-top: 20px;
+  padding-bottom: 40px;
+}
+
+footer {
+  margin-top: 10px;
+  background-color: black;
+  color: #fff;
+}
+
+.foot-panal1 {
+  color: white;
+  height: 300px;
+  justify-content: space-evenly;
+  align-items: center;
+  display: flex;
+}
+
+ul {
+  margin-top: 20px;
+}
+
+ul a {
+  display: block;
+  color: #dddddd;
+  font-size: 0.85rem;
+  margin-top: 25px;
+}
+option {
+  font-weight: normal;
+  display: block;
+  white-space-collapse: collapse;
+  text-wrap: nowrap;
+  min-height: 1.2em;
+  padding: 0px 2px 1px;
+}
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
